@@ -3,7 +3,7 @@
 @media (max-width:1024px){
     .header {
     .header__wrapper{
-        width: 65%;
+        align-items: flex-end;
         .header__text{
             h3{
                 font-size: 50px;
@@ -115,12 +115,16 @@
         }
     } 
 } 
-@media (max-width:530px){
+@media (max-width:670px){
     .header {
         padding: 140px 0;
-        background:none;
+        background: url(.././images/dest/mobheaderbg.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
         .header__wrapper{
             width: 100%;
+            align-items:center;
             .header__text{
                 h3{
                     word-spacing: 999999px;
@@ -154,6 +158,7 @@
         height: 230px;
     }
     .without{
+        padding: 90px 0;
         .without__wrapper{
             flex-direction: column;
         }
@@ -218,14 +223,19 @@
         .slider{
             .slider__inner {   
                 margin: 0; 
+                padding: 30px;
                 }
+            }
+            .prev,
+            .next {
+                padding: 0;
             }
     }
     } 
+    
 @media (max-width:426px){
     .header {
-        padding: 140px 0;
-        background:none;
+        padding: 120px 0;
         .header__wrapper{
             width: 100%;
             .header__text{
@@ -284,11 +294,7 @@
 
     .without2{
         padding: 56px 0 156px 0;
-        height: 684px;
-        background: url(.././images/dest/mobbg7.jpg);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
+
         .without2__wrapper{
             flex-direction: column;
             .without2__item{
@@ -325,7 +331,12 @@
         .slider{
             .slider__inner {   
                 margin: 0; 
+                padding: 30px;
                 }
+            }
+            .prev,
+            .next {
+                padding: 0;
             }
     }
     } 
@@ -334,10 +345,7 @@
 @media (max-width:376px){
     .header {
         
-        background: url(.././images/dest/mobheaderbg.jpg);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
+
         .header__wrapper{
             .block2{
                 margin-top: 86px;
@@ -381,7 +389,7 @@
     }
 
     .result{
-        padding: 67px 0 83px 0;
+        padding:  0;
         .result__head{
             h3{
                 font-size: 20px;
@@ -463,7 +471,7 @@
     }
 
     .result{
-        padding: 67px 0 83px 0;
+        padding: 10px 0;
         .result__head{
             h3{
                 font-size: 20px;
